@@ -1,11 +1,22 @@
 # Guided-Learning-2
 
 ## Installing
+
+### Setup
+* Create new python environment
+* source venv/bin/activate
+* pip install -r requirements
+
+### Getting dlib to work
 Installing these was necessary to get dlib to install with pip and work in python.
 I followed [this guide](https://www.pyimagesearch.com/2018/01/22/install-dlib-easy-complete-guide/) to get dlib working on my linux computer.
 
 sudo apt-get install build-essential cmake
 sudo apt-get install libopenblas-dev liblapack-dev 
+
+### Other things
+If missing python.h error arises, python3-dev might be missing.
+* sudo apt-get install python3-dev
 
 ## CAP4103 / CAP6101 Guided Learning #2: Machine Learning Algorithms
 
