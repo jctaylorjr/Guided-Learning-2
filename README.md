@@ -8,6 +8,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements
 ```
+Change interpreter to /venv/bin/python3.9 to get rid of the import linting errors when using vscode
 
 ### Getting dlib to work
 Installing these was necessary to get dlib to install with pip and work in python.
